@@ -1,5 +1,10 @@
 # be14-4th-Ideality-MyLocalDiary
 
+| 이혜영 | 정민선 | 한석현 | 김동한 | 권민수 | 장시원 |
+|--------|--------|--------|--------|--------|--------|
+| <img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/058daceb-2a13-4c5d-a6c6-59dfd3b5e62f" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/2e2ec6dc-d653-4fbe-85a5-d8cb2706097b" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/369c6510-e8bd-48f4-b7d4-c1ed56d4fcdb" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/placeholder.png" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/placeholder.png" width="200" height="200"> |
+| ISTP | ESTP | ENFP | ESFP | ENFP | ??? |
+
 1. 프로젝트 개요
 My Local Diary란?
 My Local Diary는 지도 기반 소셜 네트워크 서비스(SNS)입니다. 사용자는 나와 타인이 작성한 게시글을 지도에 마커 형태로 표시하여, 사람들이 간 장소의 위치를 한번에 지도로  확인할 수 있습니다.
