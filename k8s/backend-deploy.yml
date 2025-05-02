@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deploy
+spec:
+  selector:
+    matchLabels:
+      app: backend-kube
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: backend-kube
+    spec:
+      containers:
+      - name: backend-container
+        image: astraze/my_local_diary_back:72
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+

@@ -1,0 +1,181 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!src/main/**/build/
+!src/test/**/build/
+
+#################################### custom start
+# 설정 파일
+*.properties
+!gradle/wrapper/gradle-wrapper.properties
+
+# === Java/Spring ===
+*.class
+*.jar
+*.war
+*.log
+
+# === Build system ===
+/build/
+/target/
+/out/
+
+# === IDEs ===
+*.sw?
+
+# === OS specific ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Environment ===
+.env
+*.local
+*.properties.local
+*.yml.local
+
+# === Gradle ===
+.gradle/
+!gradle-wrapper.jar
+gradle-app.setting
+
+# === Maven (사용 시) ===
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# === IntelliJ Rider/JetBrains Cache ===
+*.sublime-workspace
+*.sublime-project
+
+# === Test coverage ===
+/coverage/
+*.exec
+
+# === Logs ===
+logs/
+
+# === Temporary files ===
+*.tmp
+*.bak
+*.old
+
+# === Node (프론트 통합 시) ===
+node_modules/
+dist/
+
+#################################### custom end
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!src/main/**/bin/
+!src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!src/main/**/out/
+!src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### project file ###
+application.yml
+
+##### custom start #####
+
+# 환경변수
+.env
+.env.example
+
+# 시스템/IDE 캐시 추가
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.AppleDouble
+.LSOverride
+
+# 빌드/패키지 관련
+.vite
+.npm
+.pnpm-store
+
+# 테스트 도구 커버리지 (다른 툴 쓸 경우 대비)
+*.lcov
+*.lcov.info
+
+# 임시/백업 파일
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+
+# JetBrains IDE
+*.iml
+out/
+
+# TypeScript 프로젝트 캐시
+.cache/
+
+# Vue SFC Playground (사용 시)
+*.playground.*
+
+##### custom end #####
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
