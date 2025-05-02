@@ -86,6 +86,13 @@ My Local Diary : 싱크홀 피해서 붕어빵 먹기
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
+
+## DDD
+
+## ERD
+<img width="931" alt="스크린샷 2025-05-02 오후 6 00 18" src="https://github.com/user-attachments/assets/95a3671f-72d7-4c9d-8951-249729eaaf19" />
+
+
 ## 📝 팀원별 회고 모음
 
 ### 🙋‍♀️ 팀원 이혜영 - @Hailyee
