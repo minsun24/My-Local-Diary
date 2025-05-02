@@ -1,6 +1,6 @@
 # be14-4th-Ideality-MyLocalDiary
 
-| 이혜영 | 정민선 | 한석현 | 김동한 | 권민수 | 장시원 |
+| 이혜영 | 정민선 | 한석현 | 정동한 | 권민수 | 장시원 |
 |--------|--------|--------|--------|--------|--------|
 | <img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/058daceb-2a13-4c5d-a6c6-59dfd3b5e62f" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/2e2ec6dc-d653-4fbe-85a5-d8cb2706097b" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/369c6510-e8bd-48f4-b7d4-c1ed56d4fcdb" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/placeholder.png" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/placeholder.png" width="200" height="200"> |
 | ISTP | ESTP | ENFP | ESFP | ENFP | ??? |
