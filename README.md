@@ -156,7 +156,7 @@ My Local Diary : 싱크홀 피해서 붕어빵 먹기
 
 ---
 
-### 🙋‍♀️ 한석현 - @githubID_A
+### 🙋‍♀️ 한석현 - @Hancoal
 
 - **이번 프로젝트에서 맡은 역할**
   - 프론트엔드 UI 전체 설계 및 구현 (Vue3 + Vuetify)
