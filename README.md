@@ -2,8 +2,8 @@
 
 | 이혜영 | 정민선 | 한석현 | 정동한 | 권민수 | 장시원 |
 |--------|--------|--------|--------|--------|--------|
-| <img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/058daceb-2a13-4c5d-a6c6-59dfd3b5e62f" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/2e2ec6dc-d653-4fbe-85a5-d8cb2706097b" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/369c6510-e8bd-48f4-b7d4-c1ed56d4fcdb" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/placeholder.png" width="200" height="200"> | <img src="https://github.com/user-attachments/assets/placeholder.png" width="200" height="200"> |
-| ISTP | ESTP | ENFP | ESFP | ENFP | ??? |
+| <div align="center"><img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/058daceb-2a13-4c5d-a6c6-59dfd3b5e62f" width="150"><br>ESTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="150"><br>ENFP</div> | <div align="center">><img src="https://github.com/user-attachments/assets/05d7d9de-3c77-4243-a553-fcfb24abc6e9" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/placeholder.png" width="150"><br>ENFP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/placeholder.png" width="150"><br>???</div> |
+
 
 
 
@@ -134,22 +134,36 @@ My Local Diary : 싱크홀 피해서 붕어빵 먹기
 
 ---
 
-### 🙋‍♀️ 팀원 C - @githubID_A
+### 🙋‍♀️ 팀원 정동한 - @rainyday1367
 
 - **이번 프로젝트에서 맡은 역할**
-  - 예: 프론트엔드 UI 개발, 로그인 기능 구현
+  - 로그인, 로그아웃, 회원가입 구현
+  - pinia 회원 store 설계
+  - DB 설계
+  - SQL 작성
 
 - **잘한 점**
-  - 예: 초기 기획 의도에 맞게 사용자 경험 중심의 UI 구현
+  - 저번에 배운 Spring Security Chain 필터 흐름대로 Jwt 적용을 했던 것
+  - Access, Refresh Jwt에서 많이 사용하는 흐름을 넣어본 것
+  - Redis를 도입하여 일반 DB보다는 속도가 향상된 로직을 구현한 것
 
 - **아쉬운 점**
-  - 예: Axios 에러 핸들링에서 예외 케이스를 더 고려했으면 좋았을 것
+  - 토큰 예외처리에 대한 지식 부족
+  - 토큰 구현에 대한 시간 분배 부족
+  - 배포 때 도메인이 달라진다는 부분을 까먹고 http-only cookie를 적용했던 점
+  - UI 개발에 팀원들을 도와줄 때 컴포넌트 나누는 부분이 부족
+  - 프론트엔드 개발을 먼저 하여, JSON-server 연동할 때 로직을 복잡하게 하여 팀원들이 헷갈림
+  - 주기적인 리뷰를 부족하게 하여 팀원들과 소통을 많이 못해준 점
 
 - **배운 점**
-  - 예: Pinia 상태 관리 패턴, Composition API의 유용성
+  - 전체적으로 많이 사용하는 Jwt 흐름에 대해 알 수 있었다.
+  - Redis를 이제 사용할 수 있게 되어 캐싱 전략에 대해만 공부하면 조금 더 도입할 수 있다.
 
 - **다음 프로젝트에 적용하고 싶은 점**
-  - 예: 코드 리뷰를 주기적으로 진행하기
+  - 코드 리뷰를 잘 진행해주기
+  - 배포에 대한 부분을 공부하여 배포 담당을 도와주기
+  - 로직에 대한 꼼꼼함을 추가하기
+  - 도메인 하나를 조금 더 세세하게 로직을 짜놓고 구현하기
 
 ---
 
