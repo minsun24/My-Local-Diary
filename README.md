@@ -36,7 +36,7 @@
 ---
 <br><br>
 
-## 프로젝트 개요
+## 📌 프로젝트 개요
 
 
 ![image](https://github.com/user-attachments/assets/fd4c18b1-b4ac-48fd-be56-e764dd593bae)
