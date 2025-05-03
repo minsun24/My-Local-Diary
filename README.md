@@ -2,7 +2,7 @@
 
 | 이혜영 | 정민선 | 한석현 | 정동한 | 권민수 | 장시원 |
 |--------|--------|--------|--------|--------|--------|
-| <div align="center"><img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/058daceb-2a13-4c5d-a6c6-59dfd3b5e62f" width="150"><br>ESTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="150"><br>ENFP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/05d7d9de-3c77-4243-a553-fcfb24abc6e9" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/placeholder.png" width="150"><br>ENFP</div> | <div align="center"><img src="https://item.kakaocdn.net/do/eda86b27d953e0a1bc89848fff989e65f604e7b0e6900f9ac53a43965300eb9a" width="150"><br>INTJ</div> |
+| <div align="center"><img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/058daceb-2a13-4c5d-a6c6-59dfd3b5e62f" width="150"><br>INFJ</div> | <div align="center"><img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="150"><br>ENFP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/05d7d9de-3c77-4243-a553-fcfb24abc6e9" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/placeholder.png" width="150"><br>ENFP</div> | <div align="center"><img src="https://item.kakaocdn.net/do/eda86b27d953e0a1bc89848fff989e65f604e7b0e6900f9ac53a43965300eb9a" width="150"><br>INTJ</div> |
 
 
 
@@ -87,7 +87,7 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 - 스탬프 5개를 동일 카테고리에서 모으면 뱃지가 해금되며, 뱃지 클릭 시 랜덤 고양이 소리가 재생되는 귀여운 이스터에그도 포함되어 있습니다.
 - 이 시스템은 유저의 기록 욕구 자극 + 수집형 재미 요소를 제공합니다.
 
-
+<br>
   
 ## 🛠 기술 스택
 
@@ -106,6 +106,7 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge)
 ![Vue Router](https://img.shields.io/badge/Vue_Router-4FC08D?style=for-the-badge)
+![Pinia](https://img.shields.io/badge/Pinia-FADA5E?style=for-the-badge&logo=pinia&logoColor=black)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge)
 
 ### 🗄 Database / Infra
