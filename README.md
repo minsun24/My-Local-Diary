@@ -50,7 +50,7 @@ My Local Diary는 **지도 기반의 소셜 네트워크 서비스(SNS)** 입니
 
 <br><br>
 
-## 기획 의도
+## 🧠 기획 의도
 ```
 지도 위의 나를 기록하고, 공간에서 연결되다
 ```
@@ -77,7 +77,7 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 
 
 
-## 서비스 주요 기능
+## 🚀 서비스 주요 기능
 ### 1) 📍 장소 등록 및 마커 기반 게시글 작성
 - 사용자는 글을 작성할 때 반드시 장소를 선택하거나 검색해 지정해야 합니다.
 
@@ -174,28 +174,28 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 ## 🕹️ 시스템 아키텍쳐
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/SystemArchitecture.png" />
 
-## CI / CD
+## 🔄 CI / CD
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-pipe.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-pipe.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/argocd.png" />
 
-## Jenkins Script
+## 🧾 Jenkins Script
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-script.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-script.png" />
 
-## DDD
-### 도메인 도출
+## 🧱 DDD
+### 🧩 도메인 도출
 <img width="1117" alt="스크린샷 2025-05-02 오후 6 05 44" src="https://github.com/user-attachments/assets/eb487671-fb52-4800-b4be-19dc89b54e18" />
 
-### Bounded Context
+### 📦 Bounded Context
 <img width="1099" alt="스크린샷 2025-05-02 오후 6 07 28" src="https://github.com/user-attachments/assets/c228d2e9-618d-46dc-bb68-1ed582a2c548" />
 
 
-### 연관 관계
+### 🔗 연관 관계
 <img width="1289" alt="스크린샷 2025-05-02 오후 6 07 55" src="https://github.com/user-attachments/assets/a707ea82-fa65-4532-9187-48b31f56022a" />
 
 
-## ERD
+## 🗂 ERD
 <img width="931" alt="스크린샷 2025-05-02 오후 6 00 18" src="https://github.com/user-attachments/assets/95a3671f-72d7-4c9d-8951-249729eaaf19" />
 
 
