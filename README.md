@@ -4,11 +4,46 @@
 |--------|--------|--------|--------|--------|--------|
 | <div align="center"><img src="https://github.com/user-attachments/assets/90d69166-6eee-4d9b-bdd0-ac230c4b42ef" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/2a9c8c91-0afa-4fa0-b10c-f4ad94bd9a09" width="150"><br>INFJ</div> | <div align="center"><img src="https://github.com/user-attachments/assets/c17d7bc2-4a71-4323-8fb4-7fb38f518daa" width="150"><br>ENFP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/05d7d9de-3c77-4243-a553-fcfb24abc6e9" width="150"><br>ISTP</div> | <div align="center"><img src="https://github.com/user-attachments/assets/placeholder.png" width="150"><br>ENFP</div> | <div align="center"><img src="https://item.kakaocdn.net/do/eda86b27d953e0a1bc89848fff989e65f604e7b0e6900f9ac53a43965300eb9a" width="150"><br>INTJ</div> |
 
+<br>
+
+
+## 📚 목차
+[프로젝트 개요](# 프로젝트-개요)
+
+[기획 의도](# 기획-의도)
+
+[서비스 주요 기능](# 서비스-주요-기능)
+
+[🛠 기술 스택](# 🛠 기술-스택)
+
+[🌐 외부 API 및 주요 구현 기술](# 🌐-외부-API-및-주요-구현-기술)
+
+[🕹️ 시스템 아키텍쳐](#🕹️-시스템-아키텍쳐)
+
+CI / CD
+
+Jenkins Script
+
+DDD
+
+도메인 도출
+
+Bounded Context
+
+연관 관계
+
+ERD
+
+📝 팀원별 회고 모음
 
 
 
-## 1. 프로젝트 개요
+## 프로젝트 개요
+
+
+![image](https://github.com/user-attachments/assets/fd4c18b1-b4ac-48fd-be56-e764dd593bae)
 ### My Local Diary 란? 
+
 My Local Diary는 **지도 기반의 소셜 네트워크 서비스(SNS)** 입니다. <br>
 
 사용자는 자신의 일상이나 여행 기록을 글, 사진, 음악 등으로 게시하고, 이를 지도 위의 마커(Marker) 형태로 표시할 수 있습니다. 또한, 다른 사용자의 게시글 역시 지도 상에서 확인 가능하여, 누가 언제 어디에 어떤 경험을 했는지 공간적으로 탐색할 수 있습니다.
@@ -17,7 +52,7 @@ My Local Diary는 **지도 기반의 소셜 네트워크 서비스(SNS)** 입니
 
 <br><br>
 
-## 2. 기획 의도
+## 기획 의도
 ```
 지도 위의 나를 기록하고, 공간에서 연결되다
 ```
@@ -44,7 +79,7 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 
 
 
-## 3. 서비스 주요 기능
+## 서비스 주요 기능
 ### 1) 📍 장소 등록 및 마커 기반 게시글 작성
 - 사용자는 글을 작성할 때 반드시 장소를 선택하거나 검색해 지정해야 합니다.
 
