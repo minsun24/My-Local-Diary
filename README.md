@@ -94,6 +94,10 @@ My Local Diary : 싱크홀 피해서 붕어빵 먹기
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-pipe.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/argocd.png" />
 
+## Jenkins Script
+<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-script.png" />
+<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-script.png" />
+
 ## DDD
 ### 도메인 도출
 <img width="1117" alt="스크린샷 2025-05-02 오후 6 05 44" src="https://github.com/user-attachments/assets/eb487671-fb52-4800-b4be-19dc89b54e18" />
@@ -181,7 +185,7 @@ My Local Diary : 싱크홀 피해서 붕어빵 먹기
   - 게시글 관련 프론트엔드 UI 설계 및 페이지네이션
   - 스탬프, 뱃지 관련 백엔드 구현
 
-- **느낀 점**
+- **느낀 점**   
 수업을 신청할 때부터 DevOps에 대해 잘 몰랐기에 궁금했었고, 배포를 담당해보고 싶었는데 선뜻 팀원들이 맡겨줘서 고마웠다. 젠킨스와 아르고, 도커에 대해 공부하면서 로컬 개발환경과 배포 환경의 차이점을 깨닫게 되었다.
 CI/CD를 구축하는 과정은 힘들었지만 구축이 완료된 이후엔 온전히 프로젝트 개발과 수정에만 몰두할 수 있어서 편했다.
 이번 경험을 통해 배포 환경을 생각하면서 코드를 작성할 수 있게 되었고, 개발환경에서보다 에러 발생 위치를 특정하기 힘들어 로그의 중요성에 대해 알게되었다. 배포를 공부하느라 코드 개발에 많은 시간을 쏟지 못했는데 부담을 나누어진 팀원들에게 미안하면서도 감사하다.
