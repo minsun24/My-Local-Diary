@@ -45,64 +45,97 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 
 
 ## 3. 서비스 주요 기능
-#### 1) 마이페이지 (프로필) 기능
-사용자가 설정한 프로필 음악이 자동으로 재생됩니다.
-→ 싸이월드 감성을 재현했습니다.
+### 1) 📍 장소 등록 및 마커 기반 게시글 작성
+- 사용자는 글을 작성할 때 반드시 장소를 선택하거나 검색해 지정해야 합니다.
 
-마이페이지 내에도 작은 개인 지도가 표시되어, 사용자의 게시글 위치를 확인할 수 있습니다.
+- 등록된 장소는 지도 위에 마커 형태로 표시되며, 마커에는 해당 게시글의 썸네일 이미지가 함께 노출됩니다.
 
-2) 지도 홈
-로그인 후 기본 페이지는 지도 홈입니다.
-지도에는 내가 작성한 글과 타인이 작성한 글이 마커로 표시됩니다.
-오른쪽 사이드바에는 내가 팔로잉한 유저 목록이 실시간으로 보여집니다.
+- 마커 클릭 시, 간단한 미리보기(사진/제목)와 함께 모달로 상세 게시글을 확인할 수 있습니다.
 
-3) 팔로우 및 알림 기능
-공개 계정은 팔로우 버튼 클릭 시 즉시 팔로우됩니다.
-비공개 계정은 팔로우 요청을 보내고, 상대방이 수락하거나 거절할 수 있습니다.
-팔로우가 완료되면 상대방에게 실시간 알림이 전송됩니다.
+- 이를 통해 사용자는 자신의 추억을 단순한 글이 아닌 ‘**지도 위의 아카이빙**’으로 저장할 수 있습니다.
+- 지도 기능은 네이버 클라우드 플랫폼의 **Maps API**를 사용해 구현되었습니다.
+- 장소 검색 시에는 네이버 Search 장소 검색 API를 활용하여, 사용자가 키워드로 장소를 쉽게 찾을 수 있도록 지원합니다.
+- 도로명 주소 입력 시에는 Maps API의 geocoder 서브모듈을 이용하여 주소 → 좌표 변환(Geocoding) 처리를 수행합니다.
 
-4) 스탬프 및 뱃지 시스템
-게시글을 작성하면 특정 기준에 따라 스탬프를 획득할 수 있습니다.
-스탬프를 카테고리별로 5개 모으면 뱃지를 받을 수 있습니다.
-뱃지를 클릭하면 랜덤으로 고양이 소리가 재생되는 깜짝 요소도 추가했습니다.
+### 2) 🗺️ 지도 홈 (메인 피드)
+- 로그인 시 진입하는 메인 화면은 전체 지도 기반의 게시글 피드입니다.
 
-## 🕹️ 기술 스택(예시, 수정 필요)
+- 지도에는 나와 타인의 게시글이 각각 마커 + 썸네일 형태로 표시되며,
 
-### Backend
+- 내 게시글은 구별된 색상이나 아이콘으로 시각적으로 강조됩니다.
+
+- 오른쪽 사이드바에는 팔로잉한 유저 목록이 표시되며, 각 유저의 게시글 마커를 지도에서 토글로 켜고 끌 수 있습니다.
+
+- 마커에 마우스를 올리면 회오리 효과(싱크홀 모티브)가 발생하는 등 시각적 재미 요소도 포함되어 있습니다
+
+
+
+### 3) 🧑‍🎤마이페이지 (프로필) 기능
+- 사용자는 닉네임, 프로필 이미지, 자기소개, 프로필 음악 등을 설정할 수 있습니다.
+- 페이지에 진입하면 설정한 배경 음악이 자동으로 재생되며, 이는 싸이월드를 연상시키는 레트로 감성 연출 요소입니다.
+- 마이페이지 내 미니 맵에서는 사용자의 게시글 위치가 요약된 지도로 제공됩니다.
+
+
+### 3) 🤝 팔로우 및 실시간 알림 시스템
+- 공개 계정은 ‘팔로우’ 버튼 클릭 시 즉시 팔로우가 완료되며, 비공개 계정은 팔로우 요청 → 수락/거절 과정을 거칩니다.
+- 팔로우가 완료되면 상대방에게 실시간 알림이 전송되며, 이후 팔로우한 사용자가 새 게시글을 업로드할 경우에도 알림을 받을 수 있습니다.
+- 해당 알림 기능은 SSE(Server-Sent Events) 방식을 기반으로 구현되었습니다.
+
+
+### 4) 🏅 스탬프 & 뱃지 시스템 (게이미피케이션 요소)
+- 게시글 작성 조건 충족 시 스탬프를 자동 획득합니다.
+- 스탬프 5개를 동일 카테고리에서 모으면 뱃지가 해금되며, 뱃지 클릭 시 랜덤 고양이 소리가 재생되는 귀여운 이스터에그도 포함되어 있습니다.
+- 이 시스템은 유저의 기록 욕구 자극 + 수집형 재미 요소를 제공합니다.
+
+
+  
+## 🛠 기술 스택
+
+### 🧩 Backend
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### Frontend
+### 🎨 Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge)
-![Vue Router](https://img.shields.io/badge/Vue_Router-4FC08D?style=for-the-badge)
 ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge)
+![Vue Router](https://img.shields.io/badge/Vue_Router-4FC08D?style=for-the-badge)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge)
 
-### Database
+### 🗄 Database / Infra
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### AWS
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-
-### Tools
+### 🧰 Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+
+
+## 🌐 외부 API 및 주요 구현 기술
+| 구분 | 기술 / API | 설명 |
+|------|------------|------|
+| 지도 렌더링 | Naver Maps API | 마커 기반 지도 시각화 |
+| 장소 검색 | Naver Search API | 키워드로 장소 검색 |
+| 주소 변환 | Naver geocoder 서브모듈 | 도로명 주소 → 좌표 (Geocoding) |
+| 실시간 알림 | SSE (Server-Sent Events) | 팔로우/게시글 알림 푸시 |
+| 인증 | JWT | 사용자 로그인/회원가입 인증 관리 |
+| 배포 환경 | Docker + Kubernetes + AWS | 컨테이너 기반 인프라 관리 |
+| 정적 파일 | Amazon S3 | 이미지, 오디오 파일 업로드/호스팅 |
+
+
+<br>
 
 ## 🕹️ 시스템 아키텍쳐
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/SystemArchitecture.png" />
