@@ -11,86 +11,19 @@
 
 
 #### [📌 프로젝트 개요](https://github.com/minsun24/My-Local-Diary/wiki/0.-%F0%9F%90%B1-My-Local-Diary) <br>
-#### [🧠 기획 의도](#-기획-의도)  <br>
-#### [🚀 서비스 주요 기능](#-서비스-주요-기능)  <br>
-#### [🛠 기술 스택](#-기술-스택)  <br>
-#### [🌐 외부 API 및 주요 구현 기술](#-외부-api-및-주요-구현-기술)  <br>
-#### [🕹️ 시스템 아키텍쳐](#-시스템-아키텍쳐)  <br>
-#### [🔄 ci / cd](#-ci-/-cd)  <br>
-#### [🧾 jenkins script](#-jenkins-script)  <br>
-#### [🧱 ddd](#-ddd)  <br>
+#### [🧠 기획 의도](https://github.com/minsun24/My-Local-Diary/wiki/1.-%F0%9F%A7%A0-%EA%B8%B0%ED%9A%8D-%EC%9D%98%EB%8F%84)  <br>
+#### [🚀 서비스 주요 기능](https://github.com/minsun24/My-Local-Diary/wiki/2.-%F0%9F%9A%80-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5)  <br>
+#### [🛠 기술 스택](https://github.com/minsun24/My-Local-Diary/wiki/3.-%F0%9F%9B%A0-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D) <br>
+#### [🌐 외부 API 및 주요 구현 기술](https://github.com/minsun24/My-Local-Diary/wiki/4.-%F0%9F%8C%90-%EC%99%B8%EB%B6%80-API-%EB%B0%8F-%EC%A3%BC%EC%9A%94-%EA%B5%AC%ED%98%84-%EA%B8%B0%EC%88%A0) <br>
+#### [🕹️ 시스템 아키텍쳐](https://github.com/minsun24/My-Local-Diary/wiki/5.-%F0%9F%95%B9%EF%B8%8F-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90)  <br>
+#### [🔄 ci / cd](https://github.com/minsun24/My-Local-Diary/wiki/6.-%F0%9F%94%84-CI---CD) <br>
+#### [🧾 jenkins script](https://github.com/minsun24/My-Local-Diary/wiki/7.-%F0%9F%A7%BE-Jenkins-Script)  <br>
+#### [🧱 ddd](https://github.com/minsun24/My-Local-Diary/wiki/8.-%F0%9F%A7%B1-DDD)  <br>
 - [🧩 도메인 도출](#-도메인-도출)  <br>
 - [📦 bounded context](#-bounded-context)  <br>
 - [🔗 연관 관계](#-연관-관계)  <br>
 - [🗂 erd](#-erd)  <br>
-#### [📝 팀원별 회고 모음](#-팀원별-회고-모음)  <br>
 
-
-
-<br><br>
-
-## 📌 프로젝트 개요
-
-
-![image](https://github.com/user-attachments/assets/fd4c18b1-b4ac-48fd-be56-e764dd593bae)
-### My Local Diary 란? 
-
-My Local Diary는 **지도 기반의 소셜 네트워크 서비스(SNS)** 입니다. <br>
-
-사용자는 자신의 일상이나 여행 기록을 글, 사진, 음악 등으로 게시하고, 이를 지도 위의 마커(Marker) 형태로 표시할 수 있습니다. 또한, 다른 사용자의 게시글 역시 지도 상에서 확인 가능하여, 누가 언제 어디에 어떤 경험을 했는지 공간적으로 탐색할 수 있습니다.
-이 서비스를 통해 사용자는 단순한 타임라인이 아닌, ‘**지도 위에 나의 일상**’을 시각적으로 기록하고 공유할 수 있으며, 이를 바탕으로 **로컬 중심의 새로운 소셜** 연결을 경험하게 됩니다.
-
-
-<br><br>
-
-## 🧠 [기획 의도](https://github.com/minsun24/My-Local-Diary/wiki/1.-%F0%9F%A7%A0-%EA%B8%B0%ED%9A%8D-%EC%9D%98%EB%8F%84)
-
-<br>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e76adee3-0066-477f-9029-2ba2f3efd738" width="800"/>
-</p>
-
-
-## 🚀 [서비스 주요 기능](https://github.com/minsun24/My-Local-Diary/wiki/2.-%F0%9F%9A%80-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5)
-
-<br>
-  
-## 🛠 [기술 스택](https://github.com/minsun24/My-Local-Diary/wiki/3.-%F0%9F%9B%A0-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
-
-
-## 🌐 [외부 API 및 주요 구현 기술](https://github.com/minsun24/My-Local-Diary/wiki/4.-%F0%9F%8C%90-%EC%99%B8%EB%B6%80-API-%EB%B0%8F-%EC%A3%BC%EC%9A%94-%EA%B5%AC%ED%98%84-%EA%B8%B0%EC%88%A0)
-
-
-<br>
-
-## 🕹️ [시스템 아키텍쳐](https://github.com/minsun24/My-Local-Diary/wiki/5.-%F0%9F%95%B9%EF%B8%8F-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90)
-<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/SystemArchitecture.png" />
-
-## 🔄 [CI / CD](https://github.com/minsun24/My-Local-Diary/wiki/6.-%F0%9F%94%84-CI---CD)
-<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-pipe.png" />
-<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-pipe.png" />
-<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/argocd.png" />
-
-## 🧾 [Jenkins Script](https://github.com/minsun24/My-Local-Diary/wiki/7.-%F0%9F%A7%BE-Jenkins-Script)
-<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-script.png" />
-<img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-script.png" />
-
-## 🧱 [DDD](https://github.com/minsun24/My-Local-Diary/wiki/8.-%F0%9F%A7%B1-DDD)
-
-### 🧩 도메인 도출
-<img width="1117" alt="스크린샷 2025-05-02 오후 6 05 44" src="https://github.com/user-attachments/assets/eb487671-fb52-4800-b4be-19dc89b54e18" />
-
-### 📦 Bounded Context
-<img width="1099" alt="스크린샷 2025-05-02 오후 6 07 28" src="https://github.com/user-attachments/assets/c228d2e9-618d-46dc-bb68-1ed582a2c548" />
-
-
-### 🔗 연관 관계
-<img width="1289" alt="스크린샷 2025-05-02 오후 6 07 55" src="https://github.com/user-attachments/assets/a707ea82-fa65-4532-9187-48b31f56022a" />
-
-
-## 🗂 ERD
-<img width="931" alt="스크린샷 2025-05-02 오후 6 00 18" src="https://github.com/user-attachments/assets/95a3671f-72d7-4c9d-8951-249729eaaf19" />
 
 
 ## 📝 [회고 모음](https://github.com/minsun24/My-Local-Diary/wiki/9.-%F0%9F%93%9D-%ED%9A%8C%EA%B3%A0)
