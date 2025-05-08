@@ -73,124 +73,33 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 </p>
 
 
-## 🚀 서비스 주요 기능
-<details>
-<summary>📍 장소 등록 및 마커 기반 게시글 작성</summary>
-
-- 사용자는 글을 작성할 때 반드시 장소를 선택하거나 검색해 지정해야 합니다.
-- 등록된 장소는 지도 위에 마커 형태로 표시되며, 마커에는 해당 게시글의 썸네일 이미지가 함께 노출됩니다.
-- 마커 클릭 시, 간단한 미리보기(사진/제목)와 함께 모달로 상세 게시글을 확인할 수 있습니다.
-- 지도 기능은 네이버 Maps API로 구현되었으며, geocoder와 Search API를 통해 장소 검색과 주소 → 좌표 변환 기능도 지원합니다.
-
-</details>
-
-<details>
-<summary>🗺️ 지도 홈 (메인 피드)</summary>
-
-- 로그인 시 진입하는 메인 화면은 전체 지도 기반의 게시글 피드입니다.
-- 지도에는 나와 타인의 게시글이 각각 마커 + 썸네일 형태로 표시되며,
-- 내 게시글은 구별된 색상이나 아이콘으로 시각적으로 강조됩니다.
-- 팔로잉 유저 목록이 사이드바에 표시되고, 유저별 마커 표시 여부를 토글할 수 있습니다.
-- 마커에 마우스를 올리면 회오리 효과(싱크홀 모티브)가 발생합니다.
-
-</details>
-
-<details>
-<summary>🧑‍🎤 마이페이지 (프로필) 기능</summary>
-
-- 닉네임, 프로필 이미지, 자기소개, 프로필 음악 등을 설정할 수 있습니다.
-- 진입 시 배경 음악이 자동 재생되며, 레트로 감성을 연출합니다.
-- 미니 맵을 통해 내 게시글 위치가 시각적으로 요약됩니다.
-
-</details>
-
-<details>
-<summary>🤝 팔로우 및 실시간 알림 시스템</summary>
-
-- 공개 계정은 클릭 시 즉시 팔로우, 비공개 계정은 요청-수락 절차 필요
-- 팔로우 및 새 게시글 업로드 시 실시간 알림 발송
-- SSE(Server-Sent Events) 기반으로 실시간 통신 구현
-
-</details>
-
-<details>
-<summary>🏅 스탬프 & 뱃지 시스템</summary>
-
-- 게시글 작성 시 조건 충족에 따라 스탬프 자동 획득
-- 동일 카테고리 스탬프 5개 수집 시 뱃지 해금
-- 뱃지 클릭 시 고양이 소리 이스터에그가 재생되는 재미 요소 포함
-
-</details>
-
-
-
+## 🚀 [서비스 주요 기능](https://github.com/minsun24/My-Local-Diary/wiki/2.-%F0%9F%9A%80-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5)
 
 <br>
   
-## 🛠 기술 스택
-
-### 🧩 Backend
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### 🎨 Frontend
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge)
-![Vue Router](https://img.shields.io/badge/Vue_Router-4FC08D?style=for-the-badge)
-![Pinia](https://img.shields.io/badge/Pinia-FADA5E?style=for-the-badge&logo=pinia&logoColor=black)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge)
-
-### 🗄 Database / Infra
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-### 🧰 Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+## 🛠 [기술 스택](https://github.com/minsun24/My-Local-Diary/wiki/3.-%F0%9F%9B%A0-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
 
 
-## 🌐 외부 API 및 주요 구현 기술
-| 구분 | 기술 / API | 설명 |
-|------|------------|------|
-| 지도 렌더링 | Naver Maps API | 마커 기반 지도 시각화 |
-| 장소 검색 | Naver Search API | 키워드로 장소 검색 |
-| 주소 변환 | Naver geocoder 서브모듈 | 도로명 주소 → 좌표 (Geocoding) |
-| 실시간 알림 | SSE (Server-Sent Events) | 팔로우/게시글 알림 푸시 |
-| 인증 | JWT | 사용자 로그인/회원가입 인증 관리 |
-| 배포 환경 | Docker + Kubernetes + AWS | 컨테이너 기반 인프라 관리 |
-| 정적 파일 | Amazon S3 | 이미지, 오디오 파일 업로드/호스팅 |
+## 🌐 [외부 API 및 주요 구현 기술](https://github.com/minsun24/My-Local-Diary/wiki/4.-%F0%9F%8C%90-%EC%99%B8%EB%B6%80-API-%EB%B0%8F-%EC%A3%BC%EC%9A%94-%EA%B5%AC%ED%98%84-%EA%B8%B0%EC%88%A0)
 
 
 <br>
 
-## 🕹️ 시스템 아키텍쳐
+## 🕹️ [시스템 아키텍쳐](https://github.com/minsun24/My-Local-Diary/wiki/5.-%F0%9F%95%B9%EF%B8%8F-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90)
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/SystemArchitecture.png" />
 
-## 🔄 CI / CD
+## 🔄 [CI / CD](https://github.com/minsun24/My-Local-Diary/wiki/6.-%F0%9F%94%84-CI---CD)
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-pipe.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-pipe.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/argocd.png" />
 
-## 🧾 Jenkins Script
+## 🧾 [Jenkins Script](https://github.com/minsun24/My-Local-Diary/wiki/7.-%F0%9F%A7%BE-Jenkins-Script)
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/front-script.png" />
 <img src="https://github.com/2TEAM-Ideality/be14-4th-Ideality-MyLocalDiary/blob/main/resources/back-script.png" />
 
-## 🧱 DDD
+## 🧱 [DDD](https://github.com/minsun24/My-Local-Diary/wiki/8.-%F0%9F%A7%B1-DDD)
 
-### 🧩 [도메인 도출](https://github.com/minsun24/My-Local-Diary/wiki/8.-%F0%9F%A7%B1-DDD)
+### 🧩 도메인 도출
 <img width="1117" alt="스크린샷 2025-05-02 오후 6 05 44" src="https://github.com/user-attachments/assets/eb487671-fb52-4800-b4be-19dc89b54e18" />
 
 ### 📦 Bounded Context
@@ -205,7 +114,7 @@ My Local Diary는 이러한 흐름을 반영해, 누구나 개인화된 로컬 �
 <img width="931" alt="스크린샷 2025-05-02 오후 6 00 18" src="https://github.com/user-attachments/assets/95a3671f-72d7-4c9d-8951-249729eaaf19" />
 
 
-## 📝 회고 모음
+## 📝 [회고 모음](https://github.com/minsun24/My-Local-Diary/wiki/9.-%F0%9F%93%9D-%ED%9A%8C%EA%B3%A0)
 
 ### 🙋‍♀️ 정민선 - @minsun24
 
