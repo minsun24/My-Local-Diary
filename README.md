@@ -29,7 +29,7 @@
 
 <br>
 
-## 📝 [회고](https://github.com/minsun24/My-Local-Diary/wiki/9.-%F0%9F%93%9D-%ED%9A%8C%EA%B3%A0)
+## 📝 [회고]
 
 ### 🙋‍♀️ 정민선 - @minsun24
 
